@@ -7,13 +7,12 @@ using namespace std;
 int main()
 {
 	ifstream infile;
-	infile.open("proxy.txt");
+	infile.open("in.txt");
 	ofstream outfile;
-	outfile.open("ChangedProxies.txt");
+	outfile.open("out.txt");
 	string proxy;
-	vector <string> acc, ip;
-	string user = "m8s7zd3099!";
-	string pass = ":xh3yguai7g";
+	string user = "q6h7yd7810!";
+	string pass = ":nw0yenai3g";
 	while (getline(infile, proxy))
 	{
 		int place = proxy.find(":");
